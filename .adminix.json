@@ -13,7 +13,7 @@
       "name": "Secret key",
       "description": "Application secret key",
       "type": "str",
-      "default_value": "6110be81f232d9d20dafa60c4032bae761c59cdf85fe1789ae0224aad4717059aeb46bd20d73982378b23aa466125313cb3f766c42dd31d340182e85310765d1"
+      "default_value": "6110be81f2"
     }
   ],
   "commands": [
