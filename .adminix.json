@@ -1,0 +1,40 @@
+ {
+  "service_name": "Ruby on Rails",
+  "options": [
+    {
+      "key": "app_environment",
+      "name": "App environment",
+      "description": "Application environment to start application",
+      "type": "str",
+      "default_value": "development"
+    },
+    {
+      "key": "fb_public_key",
+      "name": "FB public key",
+      "description": "Application environment to start application",
+      "type": "str",
+      "default_value": "htrhrthrth"
+    },
+    {
+      "key": "fb_public_secret",
+      "name": "FB public secret",
+      "description": "Application environment to start application",
+      "type": "str",
+      "default_value": "htrhrthrefrefrth"
+    }
+  ],
+  "commands": [
+    {
+      "key": "echo_message",
+      "name": "Echo  message",
+      "description": "Puts some message in shell",
+      "command": "echo \"%{message}\"",
+      "arguments": {
+        "message": {
+          "title": "Message",
+          "type": "str"
+        }
+      }
+    }
+  ]
+}
